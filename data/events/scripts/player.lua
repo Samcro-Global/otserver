@@ -679,8 +679,11 @@ end
 
 function Player:onGainExperience(target, exp, rawExp)
 	if not target or target:isPlayer() then
-		return exp
-	end
+		if self:isVip() then
+			exp = exp * 1.2 -- 20% exp
+		end
+	return exp
+end
 
 	-- Soul regeneration
 	local vocation = self:getVocation()

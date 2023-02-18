@@ -21,6 +21,16 @@ end
 local playerLogin = CreatureEvent("PlayerLogin")
 
 function playerLogin.onLogin(player)
+	player:loadVipData()
+	player:updateVipTime()
+	player:addAddonMount()
+
+	local days = player:getVipDays()
+	if days == 0 then
+		player:sendTextMessage(MESSAGE_STATUS, 'You do not have any vip days.')
+	else
+		player:sendTextMessage(MESSAGE_LOGIN, string.format('You have %s vip day%s left.', (days == 0xFFFF and 'infinite amount of' or days), (days == 1 and '' or 's')))
+	end
 	local items = {
 		{3003, 1},
 		{3031, 3}

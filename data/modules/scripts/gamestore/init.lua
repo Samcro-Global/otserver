@@ -1311,7 +1311,8 @@ function GameStore.processCharmsPurchase(player)
 end
 
 function GameStore.processPremiumPurchase(player, offerId)
-	player:addPremiumDays(offerId - 3000)
+	-- player:addPremiumDays(offerId - 3000)
+	player:addVipDays(offerId - 3000)
 end
 
 function GameStore.processStackablePurchase(player, offerId, offerCount, offerName)
@@ -1672,7 +1673,7 @@ function Player.makeCoinTransaction(self, offer, desc)
 	else
 		desc = offer.name
 	end
-	
+
 	-- Remove coins
 	if offer.coinType == GameStore.CointType.Tournament then
 		op = self:removeTournamentBalance(offer.price)
