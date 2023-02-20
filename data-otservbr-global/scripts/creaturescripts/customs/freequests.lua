@@ -299,7 +299,19 @@ local questTable = {
 	{storage = Storage.ForgottenKnowledge.AccessEarth, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessFire, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessIce, storageValue = 1},
-	{storage = Storage.ForgottenKnowledge.AccessGolden, storageValue = 1}
+	{storage = Storage.ForgottenKnowledge.AccessGolden, storageValue = 1},
+
+	-- PR 708
+	{storage = Storage.Quest.U11_80.TheSecretLibrary.ScourgeOfOblivionDoor, storageValue = 1},
+	{storage = Storage.Quest.U12_20.GraveDanger.Bosses.KingZelosDoor, storageValue = 1},
+	{storage = Storage.Quest.U12_30.FeasterOfSouls.FearFeasterKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_30.FeasterOfSouls.DreadMaidenKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_30.FeasterOfSouls.UnwelcomeKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.PlaguerootKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.MalofurKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.MaxxeniusKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.AlptramunKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.IzcandarKilled, storageValue = 1},
 }
 
 local function playerFreeQuestStart(playerId, index)
