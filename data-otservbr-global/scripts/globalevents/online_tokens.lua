@@ -1,7 +1,7 @@
 local config = {
     storage = 30070,
     tokenItemId = 19082,
-    tokensPerHour = 1,
+    tokensPerHour = 5,
     checkDuplicateIps = false
 }
 
