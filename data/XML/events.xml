@@ -1,15 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
-	<event name="Otservbr example 1" startdate="11/03/2020" enddate="11/30/2020" script="example.lua" >
-		<ingame exprate="250" lootrate="200" spawnrate="100" skillrate="200" />
-		<description description="Otserver br example 1 description double exp and a half, double loot !chance!, regular spawn and double skill" />
+	<event name="Double Exp" startdate="02/24/2023" enddate="02/26/2023" script="example.lua" >
+		<ingame exprate="200" lootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double exp" />
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
 	</event>
-	<event name="Otservbr example 2" startdate="2/2/2022" enddate="11/7/2022" script="example.lua" >
-		<ingame exprate="500" lootrate="500" spawnrate="500" skillrate="500" />
-		<description description="Otserver br example 2 description 50% less exp, triple loot !chance!, 50% faster spawn and regular skill" />
-		<colors colordark="#735D10" colorlight="#8B6D05" />
+	<!-- março -->
+	<event name="Double loot" startdate="03/03/2023" enddate="03/05/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="200" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double loot!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Respaw" startdate="03/10/2023" enddate="03/12/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="200" skillrate="100" />
+		<description description="Aproveite o final de semana com double respaw!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Skill" startdate="03/17/2023" enddate="03/19/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="200" />
+		<description description="Aproveite o final de semana com double skill!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Exp" startdate="03/24/2023" enddate="03/26/2023" script="example.lua" >
+		<ingame exprate="200" lootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double exp" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<!-- abril -->
+	<event name="Double loot" startdate="03/31/2023" enddate="04/02/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="200" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double loot!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Respaw" startdate="04/07/2023" enddate="04/09/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="200" skillrate="100" />
+		<description description="Aproveite o final de semana com double respaw!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Skill" startdate="04/14/2023" enddate="04/16/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="200" />
+		<description description="Aproveite o final de semana com double skill!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Exp" startdate="04/21/2023" enddate="04/23/2023" script="example.lua" >
+		<ingame exprate="200" lootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double exp" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double loot" startdate="04/28/2023" enddate="04/30/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="200" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double loot!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<!-- maio -->
+	<event name="Double Respaw" startdate="05/05/2023" enddate="05/07/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="200" skillrate="100" />
+		<description description="Aproveite o final de semana com double respaw!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Skill" startdate="05/12/2023" enddate="05/14/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="200" />
+		<description description="Aproveite o final de semana com double skill!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+
+	<event name="Double Exp" startdate="05/19/2023" enddate="05/21/2023" script="example.lua" >
+		<ingame exprate="200" lootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double exp" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double loot" startdate="05/26/2023" enddate="05/28/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="200" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double loot!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<!-- junho -->
+	<event name="Double Respaw" startdate="06/02/2023" enddate="06/05/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="200" skillrate="100" />
+		<description description="Aproveite o final de semana com double respaw!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Skill" startdate="06/09/2023" enddate="06/11/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="200" />
+		<description description="Aproveite o final de semana com double skill!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+
+	<event name="Double Exp" startdate="06/16/2023" enddate="06/18/2023" script="example.lua" >
+		<ingame exprate="200" lootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double exp" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double loot" startdate="06/23/2023" enddate="06/25/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="200" spawnrate="100" skillrate="100" />
+		<description description="Aproveite o final de semana com double loot!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<!-- julho -->
+	<event name="Double Respaw" startdate="06/30/2023" enddate="07/02/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="200" skillrate="100" />
+		<description description="Aproveite o final de semana com double respaw!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Skill" startdate="07/07/2023" enddate="07/09/2023" script="example.lua" >
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="200" />
+		<description description="Aproveite o final de semana com double skill!" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
 	</event>
 </events>
