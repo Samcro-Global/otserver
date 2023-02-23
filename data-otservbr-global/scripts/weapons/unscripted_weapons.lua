@@ -2137,7 +2137,6 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 60,
 		unproperly = true,
-		breakchance = 2
 	},
 	{
 		-- umbral master crossbow
@@ -4273,7 +4272,6 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 25,
 		unproperly = true,
-		breakchance = 3
 	},
 	{
 		-- assassin star
@@ -4289,7 +4287,6 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 42,
 		unproperly = true,
-		breakchance = 1
 	},
 	{
 		-- onyx arrow
@@ -4372,7 +4369,6 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 20,
 		unproperly = true,
-		breakchance = 6
 	},
 	{
 		-- ripper lance
@@ -4882,8 +4878,12 @@ local weapons = {
 	{
 		-- spear
 		itemid = 3277,
+<<<<<<< HEAD
 		type = WEAPON_MISSILE,
 		breakchance = 3
+=======
+		type = WEAPON_DISTANCE,
+>>>>>>> feature/tournament-coins
 	},
 	{
 		-- hatchet
