@@ -4878,12 +4878,7 @@ local weapons = {
 	{
 		-- spear
 		itemid = 3277,
-<<<<<<< HEAD
 		type = WEAPON_MISSILE,
-		breakchance = 3
-=======
-		type = WEAPON_DISTANCE,
->>>>>>> feature/tournament-coins
 	},
 	{
 		-- hatchet
